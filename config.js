@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://'+process.env.OPENSHIFT_APP_DNS,
+        url: 'http://www.rustyandfriends.com',
         mail: {},
         database: {
             client: 'mysql',
